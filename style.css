@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+/*TIPO DE LETRA DE LA PAGINA*/
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: none;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+/*TAMAÑA Y COLOR DE LASLETRAS DEL MENU*/
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: arial black;
+}
+/*COLOR CUADRO MENU*/
+.navbar a:hover {
+    background: yellow;
+}
+/*IMAGEN PRINCIPAL*/
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background:url(img8/Imagen\ de\ WhatsApp\ 2023-03-20\ a\ las\ 15.02.23.jpg) no-repeat center;
+    background-size: cover;
+}
+/*TAMAÑO Y COLOR TITULOS*/
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+.title2 {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: yellowgreen;
+}
+
+.title3 {
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: yellowgreen;
+}
+
+.title4 {
+    margin-left: 35px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: yellowgreen;
+}
+
+.title5 {
+    margin-left: 35px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #yellowgreen;
+}
+
+/*TAMAÑO Y COLOR PARRAFOS*/
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: WHITE;
+    padding: 0 150px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*COLOR  DEL FONDO NEGRO*/
+.sau {
+    padding: 180px 0;
+    background: black;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: centers;
+}
+/*COLOR DE LOS CUADROS VERDES*/
+.box-container .box {
+    height: 260px;
+    width: 400px;
+    background: darkgreen;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    margin: 20px;
+    font-size: 50px;
+}
+
+
+.box-container .box i {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #0a44b0;
+    font-size: 40px;
+    margin: 30px 0;
+}
+/*TAMAÑO Y COLOR DEL TITULO DE LOS CUADROS*/
+.box-container .box h3 {
+    font-size: 40px;
+    color: yellow;
+    margin-top: 40px;
+}
+/*TAMAÑO DE LOS PARRAFOS DEL CUADRO*/
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+/*FOTO DEL COLEGIO*/
+.contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: url(img/idk.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+/*COLOR CUADRO GRIS BACHILLERES*/
+.about {
+    background: dimgrey;
+    padding: 50px 0;
+    height: 600px;
+}
+
+.box-container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.box-container2 .box {
+    width: 350px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    background: #063d16;
+    margin: 20px 20px;
+    margin-top: 12px;
+}
+
+.box-container2 .box img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 6px solid #063d16;
+}
+/*TAMAÑO Y COLOR DEL TITULO DE LOS CUAROS*/
+.box-container2 .box h3 {
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+}
+/*TAMAÑO Y COLOR DEL PARRAF DEL CUADRO*/
+.box-container2 .box p {
+
+    font-size: 18px;
+    color: white;
+    padding: 0;
+}
+/*TAMAÑO Y COLOR DEL LAS ESTRELLAS*/
+.box-container2 .box .stars i {
+    font-size: 15px;
+    color: gold;
+}
+
